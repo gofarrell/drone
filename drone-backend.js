@@ -40,7 +40,7 @@ function fly(robot) {
     after(1.75*1000, function() {
         bot.drone.land();
 });
-    after(15*1000, function() {
+    after(12.3*1000, function() {
         bot.drone.stop();
     });
 }
